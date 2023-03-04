@@ -24,6 +24,7 @@
 @media (max-width:330px) {
     .blockTitle {
         width: 100%;
+        padding-left: 40px;
     }
 }
 
