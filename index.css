@@ -546,13 +546,25 @@
     }
 }
 
+
+/* ///////////////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////////////// */
+
+
+/* ///////////////////////////////////////////////////// */
+
 .servicesBlock {
-    width: 80%;
     font-size: 30px;
     color: #222;
     padding-top: 40px;
     padding-bottom: 30px;
     letter-spacing: 2px;
+    width: 90%;
     margin-left: 5%;
 }
 
@@ -584,11 +596,13 @@
     flex-wrap: wrap;
     position: relative;
     margin-left: 5%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .service {
     width: 32%;
-    height: 350px;
+    height: 400px;
     border-radius: 5px;
     margin-top: 40px;
     position: relative;
@@ -597,7 +611,8 @@
 
 .service:hover {
     background-color: #f8f8f8;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 5px 5px 80px 5px;
 }
 
 .service>img {
@@ -636,7 +651,7 @@
     padding: 24px;
     cursor: pointer;
     bottom: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 40px;
 }
 
 .learnMoreAboutService>img {
@@ -652,6 +667,11 @@
 }
 
 @media (max-width:700px) {
+    .service>img {
+        width: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     .servicesBlock {
         margin-left: 10%;
         width: 80%;
@@ -662,6 +682,28 @@
     }
     .service {
         width: 100%;
+    }
+    .serviceName {
+        padding-top: 15px;
+        font-size: 26px;
+        letter-spacing: 3px;
+    }
+    .serviceDescription {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 24px;
+        padding-top: 20px;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    .learnMoreAboutService {
+        font-size: 26px;
+        font-weight: 400;
+        padding: 24px;
+        padding-bottom: 40px;
+    }
+    .learnMoreAboutService>img {
+        width: 35px;
     }
 }
 
