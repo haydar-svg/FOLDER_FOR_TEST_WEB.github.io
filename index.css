@@ -547,7 +547,7 @@
 }
 
 .servicesBlock {
-    width: 1070px;
+    width: 80%;
     font-size: 30px;
     color: #222;
     padding-top: 40px;
@@ -654,6 +654,7 @@
 @media (max-width:700px) {
     .servicesBlock {
         margin-left: 10%;
+        width: 80%;
     }
     .serviceContainer {
         width: 80%;
@@ -667,6 +668,7 @@
 @media (max-width:400px) {
     .servicesBlock {
         margin-left: 3%;
+        width: 94%;
     }
     .serviceContainer {
         width: 94%;
